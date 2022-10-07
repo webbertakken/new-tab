@@ -8,6 +8,8 @@ I wanted to have some control over what I see when I open a new tab in Chrome. I
 
 So I built a client-side RSS-feed parser that runs fast enough to process feeds on the fly.
 
+Works best with Chrome's "theme colour" Black. This was made for Chrome but generally should work in any modern browser.
+
 ## Features
 
 - All-in-one html file `new-tab.html`
