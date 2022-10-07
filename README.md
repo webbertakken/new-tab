@@ -25,7 +25,7 @@ Some hosts don't allow cross-origin requests from **_origin: null_**, which basi
 
 - Install [Custom New Tab URL](https://chrome.google.com/webstore/detail/custom-new-tab-url/mmjbdbjnoablegbkcklggeknkfcjkjia) plugin.
 - Clone the repository or simply download `new-tab.html`
-- Set the URL to `file:///C:/Users/Webber/repositories/new-tab/new-tab.html` (replace with your own path)
+- Set the URL to the index file. For example: `file:///C:/Users/Webber/repositories/new-tab/index.html`.
 - Open a new tab and enjoy!
 
 ## Licence
