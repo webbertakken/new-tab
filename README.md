@@ -12,7 +12,7 @@ Works best with Chrome's "theme colour" Black. This was made for Chrome but gene
 
 ## Features
 
-- All-in-one html file `new-tab.html`
+- All-in-one html file `index.html`
 - Optimised for high focus
 - Ready to be forked, so you can
   - Add your own RSS feeds
