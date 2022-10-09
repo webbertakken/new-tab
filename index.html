@@ -125,7 +125,7 @@
         will-change: fill;
       }
 
-      .github-corner svg:hover {
+      .github-corner:hover svg {
         color: black;
         fill: rgb(255, 54, 136);
       }
@@ -187,9 +187,9 @@
               const link = item.querySelector('link').innerHTML;
               const description = item.querySelector('description').innerHTML;
 
-              let imageTag = '';
+              let imageTag = `<img alt="no image available" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkWAUAALAArAt9puQAAAAASUVORK5CYII=" />`;
               const imageNode = item.querySelector('media\\:content, content');
-              if (imageNode.hasAttributes()) {
+              if (imageNode?.hasAttributes()) {
                 const imageUrl = imageNode.getAttribute('url');
                 imageTag = `<img src="${imageUrl}" alt="${title}" />`;
               }
